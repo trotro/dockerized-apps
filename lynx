@@ -1,0 +1,5 @@
+#!/bin/bash
+# run lynx in a container
+# based on https://github.com/jfrazelle/dotfiles/blob/master/.dockerfunc
+exec docker run --rm -it jess/lynx "$@"
+#EOF
