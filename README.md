@@ -8,10 +8,10 @@ For more simplicity in usage, place the dockerised-tools in your $PATH
 
 # Windows
 Your docker-machine needs to be set up before running env.bat
-In env.bat don't forget to replace your username
+In env.bat don't forget to replace your boot2docker VM name (default : dev)
 
 # TODO
-- [ ] organise files in linux/windows folders
-- [ ] create batch version for
- - [ ] lynx
- - [ ] nmap
+- [x] organise files in linux/windows folders
+- create batch version for
+ - [x] lynx
+ - [x] nmap
