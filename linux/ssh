@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # based on https://hub.docker.com/r/iadknet/ssh-client-light/
 exec docker run --rm -it iadknet/ssh-client-light ssh "$@"
 #EOF
