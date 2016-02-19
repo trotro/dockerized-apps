@@ -1,5 +1,5 @@
 Scripts to run linux commands in docker containers
-Inspired by https://github.com/docker/compose/tree/master/script and @jfrazelle dotfiles
+Inspired by [docker compose scripts](https://github.com/docker/compose/tree/master/script) and [@jfrazelle dotfiles](https://github.com/jfrazelle/dotfiles)
 
 # requirements
 Obviously docker engine needs to be installed before using these scripts
