@@ -1,0 +1,10 @@
+#!/bin/sh
+# based on the work of William Myeh https://hub.docker.com/r/williamyeh/ansible/
+# ==> Specify requirements filename;  default = "requirements.yml"
+#ENV REQUIREMENTS  requirements.yml
+# ==> Specify playbook filename;      default = "playbook.yml"
+#ENV PLAYBOOK      playbook.yml
+# ==> Specify inventory filename;     default = "/etc/ansible/hosts"
+#ENV INVENTORY     inventory.ini
+
+docker run --rm williamyeh/ansible:alpine3
