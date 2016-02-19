@@ -1,5 +1,0 @@
-#!/bin/sh
-# run nmap in a container
-# based on https://github.com/jfrazelle/dotfiles/blob/master/.dockerfunc
-exec docker run --rm -it --net host jess/nmap "$@"
-#EOF

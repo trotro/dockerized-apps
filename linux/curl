@@ -1,5 +1,0 @@
-#!/bin/sh
-# run curl inside a container
-# based on https://hub.docker.com/r/appropriate/curl/
-exec docker run --rm appropriate/curl "$@"
-#EOF
