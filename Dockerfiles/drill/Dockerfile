@@ -1,5 +1,7 @@
 FROM alpine
 
-RUN apk add --no-cache drill
+RUN apk update \
+	&& apk add drill \
+	&& rm -rf /var/cache/apk/*
 
 ENTRYPOINT ["drill"]
