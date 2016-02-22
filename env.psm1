@@ -1,8 +1,8 @@
 # Run this command to configure your shell:
 # Define the following env variables : $Env:DOCKER_TLS_VERIFY $Env:DOCKER_HOST $Env:DOCKER_CERT_PATH $Env:DOCKER_MACHINE_NAME
-# It uses the first available docker machine
+# It uses the docker machine named dev
 
-& 'C:\Program Files\Docker Toolbox\docker-machine.exe' env --shell powershell | Invoke-Expression
+& 'C:\Program Files\Docker Toolbox\docker-machine.exe' env dev --shell powershell | Invoke-Expression
 
 function drill
 {
